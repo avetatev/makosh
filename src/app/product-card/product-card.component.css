@@ -1,0 +1,15 @@
+h1{
+    color: green;
+}
+p{
+    color: red;
+}
+.product-card{
+    border: 1px red solid;
+    padding: 15px;
+}
+
+.input-product{
+    border-left: 1px gray solid;
+    padding-left: 5px;
+}

@@ -1,0 +1,17 @@
+<div>
+  <div class="product-card" >
+     <h1> Title:    {{productCategory}} {{inputProductName}} {{productQuantity}} {{productMesure}} </h1>
+     <button  (click)="open()">open</button>
+    <div class="input-product" *ngIf="!isOpen">
+     <p>Category:</p>
+    <input type="text" [(ngModel)]="productCategory">  
+ 
+    <p>Product name:</p>
+    <input  type="text" [(ngModel)]="inputProductName">  
+    <p> Quantity: </p>
+    <input type="text" [(ngModel)]="productQuantity">
+    <p>Mesuar:</p>
+    <input type="text" [(ngModel)]="productMesure"> 
+    </div> 
+  </div>
+</div>
